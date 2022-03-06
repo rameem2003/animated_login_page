@@ -5,7 +5,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Animated login</title>
+
+  <!-- font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- local css -->
   <link rel="stylesheet" href="style.css">
+
+
 </head>
 <body>
   <form action="">
@@ -15,7 +22,8 @@
     </div>
 
     <div class="input-div">
-      <input type="password" name="" id="" required>
+      <i class="fa-solid fa-eye-slash tog"></i>
+      <input type="password" name="" id="pass" required>
       <label for="">Password</label>
     </div>
 
@@ -23,5 +31,8 @@
       <input type="submit" value="login">
     </div>
   </form>
+
+
+  <script src="./app.js"></script>
 </body>
 </html>
